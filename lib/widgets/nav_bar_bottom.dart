@@ -22,9 +22,10 @@ class NavBarBottom extends StatelessWidget {
               (e) => Expanded(
                 child: GestureDetector(
                   child: Container(
-                    height: MediaQuery.of(context).padding.bottom + gDp(65),
+                    height: MediaQuery.of(context).padding.bottom + gDp(85),
                     margin: EdgeInsets.only(
                       bottom: gDp(15),
+                      top: gDp(15),
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
